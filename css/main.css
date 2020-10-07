@@ -1,0 +1,188 @@
+body {
+	background: url("../img/pattern.png") repeat;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.navbar {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-oway .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-oway .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-nav a {
+  font-family: 'DDINRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.banner {
+  height: 75vh;
+  min-height: 500px;
+  background:url("../img/bg02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product_banner {
+  height: 55vh;
+  min-height: 300px;
+  background:url("../img/background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.about_banner {
+  height: 55vh;
+  min-height: 300px;
+  background:url("../img/img-012.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.agricosmetica_banner {
+  height: 55vh;
+  min-height: 300px;
+  background:url("../img/img-013.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+
+
+.banner h1, .product_banner h1, .about_banner h1, .agricosmetica_banner h1 {
+  width:20%;
+  margin:0 auto;
+}
+
+.mainArea {
+	background:#fff;
+	width:89.5%;
+	margin:0 auto 20px;
+}
+
+footer {
+	background:#333B3F;
+  color:#fff;
+}
+
+.footer_hr {
+  border-top:1px solid #fff;
+}
+footer ul li a, footer p a {
+  color: #fff;
+}
+
+footer ul li a:hover, footer p a:hover {
+  text-decoration: none;
+  color:#49AE4E;
+}
+
+
+.mainArea .inner {
+  margin:5vh auto;
+}
+
+.mainArea h1.title {
+	color: #4d4d4d;
+	font-size:2em;
+	text-align: center;
+	padding-top:3vh;
+	line-height:1.5em;
+}
+
+.mainArea .what-is-oway {
+  margin: 0 auto:;
+	/*background:red;*/
+	margin-top: :4vh;
+}
+
+.mainArea .mp001 {
+	box-shadow: 1px 2px 3px #000;
+	height:300px;
+	margin:4vh auto;
+  padding:3vh;
+}
+
+/*.mainArea .mp001 h1 span{
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+}*/
+
+.mainArea .mp001 p {
+  padding:0 4vh;
+  background:#3F4551;
+  color: white;
+}
+.mainArea .oway {
+  background-image:url("../img/bg03.png");
+  background-position: center;
+  background-size:cover;
+}
+
+.mainArea .agricosmetica {
+  background-image:url("../img/img-015.png");
+  background-position: center;
+  background-size:cover;
+}
+
+
+
+.mainArea .product {
+	width:98%;
+	margin: 0 auto;
+}
+
+.mainArea .category {
+	box-shadow: 1px 2px 3px #9a9a9a;
+	margin:4vh auto;
+	padding:20px;
+}
+
+.mainArea .category h1 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size:2em;
+	color:#000;
+	text-align: center;
+}
+
+.mainArea h1.heading {
+	font-family: 'Archivo Black', sans-serif;
+	text-align: center;
+}
+
+.infine {
+	background-color: #F1D660;
+}
+
+.footer {
+	position:sticky;
+}
+
+
+.footer ul.sns-links {
+}
+
+.footer ul.sns-links li {
+	font-size:18px;
+	display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+  .banner{
+    height:30vh;
+  }
+
+}
+
+

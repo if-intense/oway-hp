@@ -1,0 +1,297 @@
+.nav-bar {
+  font-family: 'DDINRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.br_on {
+    display: none;
+}
+
+.mainArea {
+	padding:40px 0;
+}
+
+
+
+.mainArea .about {
+	/*background:orange;*/
+
+	padding:3vh 2vh;
+}
+
+.mainArea .about h2 {
+	text-align: center;
+	color:rgb(61,66,70);
+	font-weight: bold;
+  font-size:1.5em;
+}
+
+.mainArea .about p {
+	font-size:14px;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 2em;
+}
+
+.mainArea .about p strong {
+	color:rgb(61,66,70);
+	font-weight: bold;
+	font-size:1.25em;
+}
+
+.mainArea .about h3 {
+	color:rgb(61,66,70);
+	font-weight: bold;
+	text-align: center;
+
+  font-size:1.25em;
+}
+
+.mainArea .about h3 span {
+  border-bottom: 3px solid rgb(61,66,70);
+  padding-bottom:5px;
+}
+
+
+/*.mainArea .about_oway{
+	width:93.82%;
+	margin: 20px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	background:url("../img/bg03.png");
+	background-size: cover;
+	padding: 20px;
+}
+
+.mainArea .about_oway .card {
+	width:23rem;
+	background:rgba(255, 255, 255, 0.6);
+	padding: 20px;
+}
+
+
+.mainArea .about_oway .card h3 {
+	font-size:4em;
+	padding-bottom:10px;
+	color: #2E864C;
+	border-bottom: 3px solid #2E864C;
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+.mainArea .about_oway .card h4 {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	height: 4em;
+
+}
+
+.mainArea .about_oway .card ul {
+	list-style-image: url("../img/list-leaf.png");
+}
+
+.mainArea .about_oway .card ul li {
+	font-size:0.9em;
+	line-height: 2em;
+	text-align: justify;
+}*/
+
+.mainArea .insights {
+	/*width:100%;*/
+	margin:30px auto;
+  /*background:#333B3F;*/
+}
+
+.mainArea .insights .text {
+
+}
+
+.mainArea .insights h2 {
+	font-size: 1.25em;
+	color: rgb(61,66,70);
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.mainArea .insights p {
+	font-size:0.8em;
+}
+
+.mainArea .glass {
+  background: url('../img/img-011.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.left {
+	visibility: hidden;
+}
+
+.right {
+	visibility: hidden;
+}
+
+.slideRight {
+    visibility: visible;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.slideLeft {
+    visibility: visible;
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.mainArea .sdgs {
+	text-align: center;
+}
+
+.mainArea .sdgs h2 {
+	font-size:1.5em;
+	font-weight: bold;
+	color: rgba(2,157,218);
+}
+
+.mainArea .sdgs h4 {
+	font-size:1.25em;
+}
+
+.mainArea .sdgs p {
+	font-size:0.8em;
+}
+
+.mainArea .sdgs h5 {
+	font-size:2em;
+	font-weight: bold;
+}
+
+.mainArea .sdgs h6 {
+	font-size:4em;
+	font-weight: bold;
+}
+
+
+
+.hide {
+	visibility: hidden;
+}
+
+.pinch-out {
+    visibility: visible;
+    animation-name: pinch-out;
+    -webkit-animation-name: pinch-out;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes pinch-out {
+    0% {
+        transform: scale(0.7,0.7);
+        opacity:0;
+    }
+    100% {
+        transform: scale(1,1);
+        opacity:1;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .br_on {
+        display: block;
+    }
+
+    .mainArea h1.title {
+        color: #4d4d4d;
+        font-size: 1.25em;
+    }
+
+    .mainArea .about h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    .mainArea .about p {
+        font-size: 0.75em;
+    }
+
+    .mainArea .about h3 {
+        font-size: 1.25em;
+    }
+
+    .mainArea .about_oway .card h3 {
+        text-align: center;
+    }
+
+    .mainArea .about_oway .card ul li {
+        font-size: 0.8em;
+    }
+
+    .mainArea .about_oway .card {
+        margin: 20px 0 10px;
+    }
+
+    .mainArea .about_oway .card h4 {
+        font-size: 0.9em;
+    }
+}

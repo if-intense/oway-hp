@@ -1,0 +1,46 @@
+@keyframes zoominoutwithinframe {
+    0% {
+        transform: scale(1.1,1.1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1.1,1.1);
+    }
+}
+
+.mainArea .zoom {
+  display: inline-block;
+  overflow: hidden;
+  /*background-color: blue;*/
+
+}
+
+
+.mainArea .zoom img {
+	display: block;
+	animation: zoominoutwithinframe 60s infinite;
+	box-shadow: 1px 1px 1px #9a9a9a;
+}
+
+
+.mainArea {
+	padding:40px;
+}
+
+.mainArea h1 {
+	font-family:'pragmatica', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin:20px;
+}
+
+.mainArea h2 {
+	text-align: center;
+	color:#2E864C;
+}
+
+.mainArea p {
+	text-align: center;
+	font-size:1em;
+}

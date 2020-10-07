@@ -1,0 +1,195 @@
+.product_banner {
+  margin: 0 auto;
+  background-size: cover;
+  /*background-position: center top;*/
+  padding:20vh 0;
+}
+
+.moisturizing {
+  background:url("../img/product_img/moisturizing.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.dailyAct {
+  background:url("../img/product_img/dailyAct.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.beCurly {
+  background:url("../img/product_img/beCurly.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.colorUp {
+  background:url("../img/product_img/colorUp.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.infine {
+  background:url("../img/product_img/dailyAct.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.moisturizing {
+  background:url("../img/product_img/beCurly.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.rebuilding {
+  background:url("../img/product_img/rebuilding.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.silkglow {
+  background:url("../img/product_img/silkglow.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.smooth {
+  background:url("../img/product_img/smooth.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sunway {
+  background:url("../img/product_img/sunway.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.xVolume {
+  background:url("../img/product_img/xVolume.JPG") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.product_banner .inner {
+  text-align: center;
+}
+
+.product_banner .inner h1 span {
+  background: #fff;
+  padding:5px 10px;
+  font-family: 'Archivo Black', sans-serif;
+  box-shadow: 2px 3px 6px #9a9a9a;
+}
+
+.productPage .nav {
+  padding:20px 0;
+}
+
+.productPage .nav .active {
+  color:#3E4551;
+  font-weight: bold;
+  border-bottom: 3px #3E4551 solid;
+}
+
+.productPage .nav .nav-link:hover {
+  color: white;
+  background:#3E4551;
+}
+
+.productPage h1.logo {
+  width:30%;
+  margin:10px auto 3vh;
+}
+
+
+.productPage .product-list {
+  /*background:red;*/
+  padding:20px;
+}
+
+.productPage .product-list h4 {
+  font-size:20px;
+  margin-top:5px;
+}
+
+.productPage .product-list h5 {
+  font-size:20px;
+}
+
+.productPage .product-list h5 span {
+  padding-bottom: 3px;
+  border-bottom:1px solid #000;
+}
+
+.productPage .product-list p {
+  font-size:13px;
+  padding-left:15px;
+}
+
+.productPage .product-list .card {
+  margin-bottom:5px;
+}
+
+/*.productPage .odd {
+  background:#3F4551;
+  color: white;
+}
+
+.productPage .product .imgArea {
+  padding:20px;
+}
+
+.productPage .product .text {
+  padding:40px;
+}
+
+.productPage .product .text h4 {
+  font-size:1.75em;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.productPage .product .text ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+   columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.productPage .product .text p{
+  font-size:0.9em;
+  padding-left:20px;
+}
+
+.productPage .product .text ul li {
+  padding-left: 20px;
+  font-size: 0.7em;
+}
+
+.productPage .product .btn {
+  margin: 10px 20px;
+}
+
+
+.pg_top {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 30px;
+    right: 120px;
+    z-index: 999;
+}*/
+
+
+
+@media (max-width: 575.98px) {
+  .pg_top {
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+}
+}
